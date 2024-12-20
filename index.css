@@ -1,0 +1,146 @@
+p {
+    color:blue;
+    line-height: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.index1 {
+    margin-top: 50px;
+}
+.text {
+    line-height: 5px;
+}
+h1 {
+    text-align: center;
+    font-weight:900;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+h3 {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1351px; /* Ширина контейнера */
+    height:631px; /* Высота контейнера */
+    overflow: hidden;
+}
+
+.overlay-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обеспечивает сохранение пропорций изображения */
+}
+
+.text-overlay {
+    position: absolute;
+}
+.sp1 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 550px;
+    right: 42px;
+    transition: transform 0.2s ease;
+}
+.sp1:hover {
+    transform: translateX(20px);
+}
+.sp2 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 495px;
+    right: 146px;
+    transition: transform 0.2s ease;
+}
+.sp2:hover {
+    transform: translateX(20px);
+}
+.sp3 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 440px;
+    right: 250px;
+    transition: transform 0.2s ease;
+}
+.sp3:hover {
+    transform: translateX(20px);
+}
+.sp4 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 385px;
+    right: 355px;
+    transition: transform 0.2s ease;
+}
+.sp4:hover {
+    transform: translateX(20px);
+}
+.sp5 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 605px;
+    right: 459px;
+    transition: transform 0.2s ease;
+}
+.sp5:hover {
+    transform: translateX(20px);
+}
+.sp6 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 330px;
+    right: 562px;
+    transition: transform 0.2s ease;
+}
+.sp6:hover {
+    transform: translateX(20px);
+}
+.num1 {
+    position:absolute;
+    right: 757px;
+    bottom: 313px;
+    font-size: medium;
+    transition: text-shadow 0.3s ease-in-out;
+}
+.num1:hover {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.num2 {
+    position:absolute;
+    right: 775px;
+    bottom: 260px;
+    font-size: medium;
+    transition: text-shadow 0.3s ease-in-out;
+}
+.num2:hover {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.num3 {
+    position:absolute;
+    right: 770px;
+    bottom: 205px;
+    font-size: medium;
+    transition: text-shadow 0.1s ease-in-out;
+}
+.num3:hover {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
